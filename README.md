@@ -47,17 +47,19 @@ Cost: $0
 ## Risks & Mitigation
 | Risk | Probability | Mitigation |
 |---|---|---|
-| Colab GPU runtime limit | Medium | Use YOLOv8n (small model) and save checkpoints often |
-| Dataset imbalance	|	Medium | Apply image augmentation during training |
-| Slow training speed	| Low |	Reduce epochs or batch size |
+| Colab GPU runtime limit | Medium | Use fast training (1–3 epochs) |
+| Dataset imbalance	|	Medium | Use Roboflow augmentations |
+| Slow training speed	| Low |	Reduce image size and batch size |
 
 ## AI Usage Log
-This section will be updated throughout the project to document how AI tools were used throughout the project.
+Located in: docs/AI_usage_log.md
 
 ## Current Status
 Repository created ✅  
 Proposal written ✅  
 Dataset acquired ✅  
-Model training started  
-Demo created  
-Final presentation ready
+Model training started ✅  
+Demo created ✅  
+Final presentation ready ✅  
+
+## Demo Video
